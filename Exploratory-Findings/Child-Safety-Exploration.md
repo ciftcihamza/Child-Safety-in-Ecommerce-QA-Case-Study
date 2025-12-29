@@ -13,3 +13,4 @@ This behavior increases the risk of unauthorized or accidental purchases by chil
 - Exploratory manual testing
 - Child-user mindset
 - Shared device scenario
+Add EF-01 exploratory finding for child safety
