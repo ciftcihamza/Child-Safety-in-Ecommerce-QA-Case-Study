@@ -27,3 +27,17 @@ Parents have no control mechanism to prevent accidental or unauthorized purchase
 - Exploratory manual testing
 - Settings and account configuration review
 - Child and parent combined perspective
+
+## EF-03 – Frictionless Purchase Flow Amplifies Unauthorized Access Risk
+
+During exploratory testing, the purchase flow was observed to prioritize speed and minimal friction, allowing transactions to be completed without any interruption once user data is saved.
+
+This frictionless experience increases the risk of unauthorized purchases in scenarios such as shared devices, lost or stolen phones, or unintended access by children.
+
+### Risk Observation
+The absence of confirmation checkpoints amplifies the impact of unauthorized access, making it easy to complete purchases unintentionally or maliciously.
+
+### Test Approach
+- Exploratory manual testing
+- End-to-end purchase flow observation
+- Risk-based thinking beyond child-only scenarios
