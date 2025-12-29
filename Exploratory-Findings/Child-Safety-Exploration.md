@@ -14,3 +14,16 @@ This behavior increases the risk of unauthorized or accidental purchases by chil
 - Child-user mindset
 - Shared device scenario
 
+## EF-02 – No Configurable Purchase Protection for Child Safety
+
+During exploratory testing, no configurable option was found to enforce additional verification before completing a purchase on shared devices.
+
+There is no visible setting allowing parents to enable mandatory password, PIN, or biometric confirmation specifically for purchase actions.
+
+### Risk Observation
+Parents have no control mechanism to prevent accidental or unauthorized purchases made by children on shared family devices.
+
+### Test Approach
+- Exploratory manual testing
+- Settings and account configuration review
+- Child and parent combined perspective
